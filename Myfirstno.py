@@ -8,7 +8,7 @@ INFURA_URL = "https://mainnet.infura.io/v3/d078940287f845e5afe7e016bb49369b"
 PRIVATE_KEY_MAIN_WALLET=0xee9cec01ff03c0adea731d7c5a84f7b412bfd062b9ff35126520b3eb3d5ff258
 USDT_CONTRACT_ADDRESS =0xdac17f958d2ee523a2206206994597c13d831ec7  # USDT contract address
 GAS_WALLET_ADDRESS = None  # Will be generated later
-DESTINATION_WALLET_ADDRESS = 0x551510dFb352bf6C0fCC50bA7Fe94cB1d2182654  
+DESTINATION_WALLET_ADDRESS =  '0x551510dFb352bf6C0fCC50bA7Fe94cB1d2182654'  
 AMOUNT_USDT = 2300  # Amount of USDT to send
 GAS_FEE_ETH = 0.001  # Gas fee in ETH (This amount should be enough to pay for the transaction)
 
