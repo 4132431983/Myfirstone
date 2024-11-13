@@ -2,8 +2,7 @@ import json
 import os
 from web3 import Web3
 from eth_account import Account
-if name == 'main':
-  
+
 # Constants
 INFURA_URL = 'https://mainnet.infura.io/v3/d078940287f845e5afe7e016bb49369b'  # Replace with your Infura Project ID
 PRIVATE_KEY_MAIN_WALLET = '0xee9cec01ff03c0adea731d7c5a84f7b412bfd062b9ff35126520b3eb3d5ff258'  # Replace with your main wallet private key
@@ -100,3 +99,6 @@ def main():
     usdt_tx_hash = transfer_usdt(PRIVATE_KEY_MAIN_WALLET, DESTINATION_WALLET_ADDRESS, AMOUNT_USDT)
     print(f"USDT transfer successful. TX Hash: {web3.toHex(usdt_tx_hash)}")
 
+
+if __name__ == "__main__":
+    main()
